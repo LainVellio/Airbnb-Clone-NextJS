@@ -7,3 +7,18 @@ body,
 :root {
   height: 100%;
 }
+
+@layer utilities {
+  .st-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .st-text-sm {
+    font-size: 0.875rem /* 14px */;
+    line-height: 1.25rem /* 20px */;
+    font-weight: 600;
+  }
+}
