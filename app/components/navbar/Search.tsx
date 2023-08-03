@@ -10,10 +10,12 @@ const Search = () => {
         <div className="hidden sm:block px-6 flex-1 border-x-[1px]">
           Any Week
         </div>
-        <div className="st-flex-row w-full pl-6 pr-2 text-gray-600 gap-3">
-          <div className="sm:block">Add Guests</div>
-          <div className="p-2 bg-rose-500 rounded-full text-white">
-            <BiSearch size={18} />
+        <div className="px-6 flex-1">
+          <div className="st-flex-row sm:w-auto text-gray-600 gap-3 flex-1">
+            <div className="sm:block">Add Guests</div>
+            <div className="p-2 bg-rose-500 rounded-full text-white">
+              <BiSearch size={18} />
+            </div>
           </div>
         </div>
       </div>

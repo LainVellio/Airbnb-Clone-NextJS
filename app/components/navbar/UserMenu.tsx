@@ -11,7 +11,7 @@ const UserMenu = () => {
   return (
     <div className="flex relative flex-row items-center gap-3">
       <div
-        className="st-text-sm hidden md:block py-3 px-4 rounded-full hover:bg-neutral-100 transition cursor-pointer"
+        className="st-text-sm hidden md:block py-3 px-4 rounded-full hover:bg-neutral-100 transition cursor-pointer whitespace-nowrap"
         onClick={() => {}}
       >
         Airbnb your home
